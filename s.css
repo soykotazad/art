@@ -4,10 +4,40 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap');
 
-header{
-    display: flex;
-}
+
 
 *{
     font-family: 'Work Sans', sans-serif;
+}
+
+/* header  style */
+
+header{
+    background: rgb(212, 214, 164);
+    padding: 45px 245px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav-tittle{
+    font-size: 2.8rem;
+    font-weight: 500;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 25px;
+    font-weight: 400px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #424242;
 }
